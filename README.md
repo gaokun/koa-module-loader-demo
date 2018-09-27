@@ -62,7 +62,6 @@ server
 put it in `middleware` folder
 
 *folder name = middleware name*<br>
-so `"GET /test1 middleware1|test"`
 
 ## How to add new module
 new module folder in `module/api`, like `test`
@@ -129,7 +128,7 @@ execute process:
 #### Koa Global Error Handler
 new `error_handler.js` middleware folder:
 
-```javscript
+```javascript
 module.exports = async (ctx, next) => {
   try {
     await next();
