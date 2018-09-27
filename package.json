@@ -1,0 +1,26 @@
+{
+  "name": "koa-module-loader-demo",
+  "version": "1.0.0",
+  "description": "a demo for 'koa-module-loader' plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaokun/koa-module-loader-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaokun/koa-module-loader-demo/issues"
+  },
+  "homepage": "https://github.com/gaokun/koa-module-loader-demo#readme",
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-module-loader": "^1.0.6",
+    "koa-router": "^7.4.0"
+  }
+}

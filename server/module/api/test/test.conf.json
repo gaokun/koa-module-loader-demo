@@ -1,0 +1,7 @@
+{
+  "route": [
+    "GET /test1 middleware1|test",
+    "GET /test2 middleware1|middleware2|test",
+    "GET /test3 authorization.check|middleware1|test"
+  ]
+}
